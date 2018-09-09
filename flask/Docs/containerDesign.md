@@ -5,7 +5,7 @@ This project uses Docker and Kubernetes to run and manage the application. The t
 ### Installation:
 
 The installation of EKS has been done following AWS blogs and best practices. Refer below for detailed steps.
-
+[EKS installation](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 
 ## Why Amazon EKS?
 
