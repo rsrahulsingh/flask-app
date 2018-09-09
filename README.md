@@ -32,9 +32,9 @@ The repository's structure looks like:
                 |---deployment.yaml
                 |---service.yaml
                 |---eks/
-				            |--kubeconfig.yaml
-					          |--nodeconfig.yaml
-					          |--nodegroup.yaml
+	             |--kubeconfig.yaml
+	             |--nodeconfig.yaml
+		     |--nodegroup.yaml
 
 |-----------|--Docs
                 |---platformDesign.md
