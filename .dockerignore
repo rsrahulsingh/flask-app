@@ -1,0 +1,6 @@
+.gitignore
+*.md
+flask/Docs/*
+flask/Kubernetes/*
+.env
+.aws
