@@ -7,7 +7,6 @@ Assumptions:
 
 
 * The network is designed in single region- AWS Sydney and uses most resources from AWS Sydney DC.
-* The load balancer serves HTTP traffic as of writing this.
 * Application is standalone with inbuilt webserver and no databases.
 
 
@@ -27,7 +26,7 @@ VPC is most important component of cloud based infrastructure and it is importan
 * You need to distribute workloads across different multiple AZ to achieve fault-tolerance.
 * Security requirements for NACL and route table to serve specific ports and subnets.
 
-In this project 4 subnets are created to server traffic and with one being spare for future use.
+In this project 4 subnets in each AZ are created to server traffic and with one being spare for future use.
 
 
 ## Routing
@@ -92,7 +91,7 @@ The VPC for this project is  subdivided into different blocks as below -
 
 The platform is setup as per below architecture.
 
-![network diagram](https://user-images.githubusercontent.com/42830023/45151239-1ae1e480-b211-11e8-82f7-2b3ef6b15a9f.PNG)
+![network_diagram](https://user-images.githubusercontent.com/42830023/45263158-96d56a00-b467-11e8-9609-ac778750de88.PNG)
 
 
 # References

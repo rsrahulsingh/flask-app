@@ -31,7 +31,10 @@ The repository's structure looks like:
 |-----------|--Kubernetes/
                 |---deployment.yaml
                 |---service.yaml
-                |
+                |---eks/
+				      |--kubeconfig.yaml
+					  |--nodeconfig.yaml
+					  |--nodegroup.yaml
 
 |-----------|--Docs
                 |---platformDesign.md
@@ -65,7 +68,7 @@ yum -y install docker-ce
 easy_install pip
 yum install git
 ```
-# Clone the git branch
+# Clone the git branch for application code and Docker file.
 ```
 git clone https://github.com/rsrahulsingh/flask-app.git
 ```

@@ -1,0 +1,13 @@
+# To enable worker nodes to join your cluster
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-auth
+  namespace: kube-system
+data:
+  mapRoles: |
+    - rolearn: arn:aws:iam::129418516878:role/project-node-cfn-NodeInstanceRole-1DLM627G5S95N
+      username: system:node:{{EC2PrivateDNSName}}
+      groups:
+        - system:bootstrappers
+        - system:nodes
